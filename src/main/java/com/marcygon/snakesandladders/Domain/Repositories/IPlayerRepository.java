@@ -1,4 +1,4 @@
-package com.marcygon.snakesandladders.Repositories;
+package com.marcygon.snakesandladders.Domain.Repositories;
 
 import com.marcygon.snakesandladders.Domain.Models.Player;
 import org.springframework.data.jpa.repository.JpaRepository;
