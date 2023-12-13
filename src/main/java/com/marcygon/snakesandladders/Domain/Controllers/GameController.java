@@ -8,10 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/game")
 public class GameController {
-    private final GameService gameService;
 
     @Autowired
     public GameController(GameService gameService) {
-        this.gameService = gameService;
     }
 }
